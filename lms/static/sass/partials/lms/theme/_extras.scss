@@ -19,7 +19,7 @@ $dark-theme-font-color: #ffffff;
     }
 
     .course-header {
-      color: $dark-theme-font-color !important;
+      display: none !important;
     }
 
     .nav-tab{
@@ -47,6 +47,20 @@ $dark-theme-font-color: #ffffff;
           color: $dark-theme-font-color !important;
         }
       }
+    }
+  }
+}
+
+.course-outline {
+  .localized-datetime {
+    font-weight: bold !important;
+  }
+}
+
+.course-sidebar {
+  li.course-tool {
+    a[data-analytics-id='edx.updates'] {
+      display: none !important;
     }
   }
 }
